@@ -16,7 +16,7 @@ namespace RMDataManager.Controllers
         {
             //to know who is logging in
             string userID = RequestContext.Principal.Identity.GetUserId();
-            return new string[] { "value1", "value2", userID };
+            return new string[] { "value1", "value2", userID  };
         }
 
         // GET api/values/5
