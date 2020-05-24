@@ -1,2 +1,2 @@
 # Retail Manager
-A retail management system guild by the guide of Timcorey.
+A retail management system build by the guide of Timcorey.
