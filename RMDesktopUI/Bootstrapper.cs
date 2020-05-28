@@ -25,7 +25,7 @@ namespace RMDesktopUI
 
             GetType().Assembly.GetTypes()
                 .Where(type => type.IsClass)
-                .Where(type => type.Name.EndsWith("Viewmodel"))
+                .Where(type => type.Name.EndsWith("ViewModel"))
                 .ToList()
                 .ForEach(viewModelType => _container.RegisterPerRequest(
                     viewModelType, viewModelType.ToString(), viewModelType));
