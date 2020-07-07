@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace RMDataManager.Library
 {
-    public class Class1
+    public class SqlDataAccess
     {
     }
 }
